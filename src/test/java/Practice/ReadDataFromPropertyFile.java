@@ -20,5 +20,6 @@ public class ReadDataFromPropertyFile {
 		String value1 = p.getProperty("username");// here username is the key .keys are case sensitive
 		System.out.println(value1);
 		}
+	
 
 }

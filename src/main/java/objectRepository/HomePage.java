@@ -17,6 +17,7 @@ public class HomePage extends SeleniumUtilities {
 	@FindBy(linkText = "Sign Out")
 	private WebElement signout;
 	
+	
 	//initialization
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);

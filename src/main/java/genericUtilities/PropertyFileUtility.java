@@ -22,7 +22,7 @@ public class PropertyFileUtility
 	  FileInputStream fis = new FileInputStream(".\\src\\test\\resources\\CommonData.properties");
 	  Properties p = new Properties();
 	  p.load(fis);
-	 String value = p.getProperty(key);
+	  String value = p.getProperty(key);
 	  return value;
 	  
   } 

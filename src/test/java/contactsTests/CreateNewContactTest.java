@@ -54,5 +54,6 @@ public class CreateNewContactTest extends BaseClass {
 	@Test
 	public void sample() {
 		System.out.println("from sample");
+		System.out.println("omg");
 	}
 }
